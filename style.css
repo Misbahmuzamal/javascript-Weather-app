@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(49, 44, 44);
+}
+.container{
+    width: 450px;
+    height: 550px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #118ab2;
+    background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #e7c36e 100%);
+
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    padding: 4px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+button img{
+    height: 15px;
+    width: 15px;
+}
+button{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    justify-self: center;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.detail img{
+    margin-left: 80px;
+}
+.detail h1{
+    margin-left: 120px;
+}
+
+.detail h2{
+    margin-left: 140px;
+    margin-top: 4px;
+    font-size: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.row .hum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+.row .win{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.hide{
+    display: none;
+}
+.error{
+    font-size: 20px;
+    margin-right: 120px;
+    font-weight: 700;
+    margin-top: 20px;
+    display: none;
+}
